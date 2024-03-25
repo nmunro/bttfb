@@ -4,23 +4,23 @@
 
 # Introduction
 
-This tutorial on learning git is designed to be a little bit different from your average git tutorial, instead of saying what it is, I want to be clear what it is not:
+I used to teach in a bootcamp.
 
-- It will not be a comprehensive tutorial on everything you can do with git, if you wish to learn something specific; [RFTM](https://git-scm.com/doc).
-- It will require that you _read_ and _understand_ what is going on, if you copy and paste mindlessly, that's on you, you'll only be cheating yourself out of learning something.
+I rather enjoyed it, until I didn't.
 
-Like many things in the computer science/programming world this resource can only take you so far. You, dear reader, owe it to yourself to continue your learning beyond the limitations of this tutorial, 
+One thing that stuck with me though is students would begin learning through the first two weeks, learning html, css, and a tiny bit of JavaScript, and then we would move to the third week, collaborative development. Almost all students, without fail, hit a cognative brick wall.
 
-# Part 1
+And that wall had a name; Git.
 
-## Learning outcomes
+I often found students asking "is it like x", "oh so you mean it's like y?" and none of them were right, they were simply attempting to apply existing knowledge to a new problem domain, which is generally a logcal approach, but most students didn't have anything to relate it to, until one uneventful Tuesday it occured to me and I said it outloud: "No, it's not like any of those, but... you know what, it's like 'Back To The Future'".
 
+Two things happened immediately.
 
+About half the class had a moment of epiphany and realised what I was trying to get at, the other half of the class asked "What's 'Back To The Future?'"
 
-Go watch the Back To The Future trilogy, no seriously, go do that.
+You, dear reader, will receive the same homework they did, go and watch the trilogy, right now, no seriously. Go, I'll wait!
 
-# Part 2
+# Contents
 
-# Resources
-
-- <https://git-scm.com/doc>
+- [Part 1](part1.md)
+- [Resources](resources.md)

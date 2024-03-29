@@ -24,3 +24,7 @@ You, dear reader, will receive the same homework they did, go and watch the tril
 
 - [Part 1](part1.md)
 - [Resources](resources.md)
+
+# Resources
+
+- [Back To The Future Timeline](https://backtothefuture.fandom.com/wiki/Back_to_the_Future_timeline)

@@ -1,4 +1,4 @@
-# Part 1
+# Part 1: Committing to the story
 
 ## Learning outcomes
 
@@ -22,6 +22,12 @@ Before we get to the end of Act I, however, we must fill in some details (and do
     $ mkdir bttf
     $ cd bttf
     $ git init
+    
+Hopefully the concept of creating and entering a directory is not new to you, as I do not have the scope to explain `mkdir` and `cd`. What is important to know is the `git init` command.
+
+This simple command sets up the directory you are in as a git `repository`, a `repository` is a term to refer to a project managed by git. It does this by creating a directory called `.git` in the directory you are in. It's called `.git` because in Linux, Unix, MacOS, and most other computer systems, this is how a directory is hidden (Windows is different and is, to my knowledge, the only system where hiding files and folders doesn't work the same way) and since git was developed by the guy who developed Linux, to help him develop Linux, it makes sense that gits design and features work well with Linux and related systems.
+
+This directory is a database of changes to your project. It's important to note that git is a change management system, it tracks changes, but it's important to note that it's just a piece of software and doesn't have any awareness of what the nature of the changes are and can't perform miracles, it still often requires humans to make the ultimate choice when things end up in a state of conflict.
 
 ## Terms
 
@@ -32,3 +38,4 @@ Before we get to the end of Act I, however, we must fill in some details (and do
 ## Resources
 
 - [Time Travel](https://plato.stanford.edu/entries/time-travel/)
+- [git init reference](https://git-scm.com/docs/git-init)

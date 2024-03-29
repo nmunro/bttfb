@@ -12,13 +12,15 @@ One thing that stuck with me though is students would begin learning through the
 
 And that wall had a name; Git.
 
-I often found students asking "is it like x", "oh so you mean it's like y?" and none of them were right, they were simply attempting to apply existing knowledge to a new problem domain, which is generally a logcal approach, but most students didn't have anything to relate it to, until one uneventful Tuesday it occured to me and I said it outloud: "No, it's not like any of those, but... you know what, it's like 'Back To The Future'".
+I often found students asking "is it like x", "oh so you mean it's like y?" and none of them were right, they were simply attempting to apply existing knowledge to a new problem domain, which is generally a logcal approach, but most students didn't have anything to relate it to, until one uneventful Tuesday it occured to me and someone asked: "Is it like 'Back To The Future'?".
 
 Two things happened immediately.
 
-About half the class had a moment of epiphany and realised what I was trying to get at, the other half of the class asked "What's 'Back To The Future?'"
+About half the class had a moment of epiphany and realised what I was trying to teach, the other half of the class asked "What's 'Back To The Future?'", obviously the first half were the cooler students.
 
 You, dear reader, will receive the same homework they did, go and watch the trilogy, right now, no seriously. Go, I'll wait!
+
+To complete this tutorial you will need to be comfortable with your computers terminal and be confidant using terminal commands and navigating your file system. If you are unfamiliar with how to do that, you will need to follow another tutorial first.
 
 # Contents
 

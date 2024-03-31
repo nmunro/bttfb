@@ -18,9 +18,7 @@ Two things happened immediately.
 
 About half the class had a moment of epiphany and realised what I was trying to teach, the other half of the class asked "What's 'Back To The Future?'", obviously the first half were the cooler students.
 
-You, dear reader, will receive the same homework they did, go and watch the trilogy, right now, no seriously. Go, I'll wait!
-
-NOTE: To complete this tutorial you will need to be comfortable with your computers terminal and be confidant using terminal commands and navigating your file system. If you are unfamiliar with how to do that, you will need to follow another tutorial first.
+In this tutorial we will be following the story of Back To The Future using git as our Delorean, so if you are unfamiliar with the movie trilogy your first piece of homework is to watch, right now, no seriously. Go, I'll wait!
 
 # Contents
 

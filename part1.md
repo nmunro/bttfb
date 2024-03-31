@@ -25,15 +25,17 @@ Before we get to the end of Act I, however, we must fill in some details (and do
     
 Hopefully the concept of creating and entering a directory is not new to you, as I do not have the scope to explain `mkdir` and `cd`. What is important to know is the `git init` command.
 
-This simple command sets up the directory you are in as a git `repository`, a `repository` is a term to refer to a project managed by git. It does this by creating a directory called `.git` in the directory you are in. It's called `.git` because in Linux, Unix, MacOS, and most other computer systems, this is how a directory is hidden (Windows is different and is, to my knowledge, the only system where hiding files and folders doesn't work the same way) and since git was developed by the guy who developed Linux, to help him develop Linux, it makes sense that gits design and features work well with Linux and related systems.
+This simple command sets up the directory you are in as a git `repository`, a `repository` is a term to refer to a project managed by git. It does this by creating a directory called `.git` in the directory you are in. It's called `.git` because in Linux, Unix, MacOS, and most other computer systems, this is how a directory is hidden (Windows is different and is, to my knowledge, the only system where hiding files and folders doesn't work the same way) and since git was developed by the guy who developed Linux, to help him develop Linux, it makes sense that gits design and features work well with Linux and related systems. This directory is a database of changes to your project.
 
-This directory is a database of changes to your project. It's important to note that git is a change management system, it tracks changes, but it's important to note that it's just a piece of software and doesn't have any awareness of what the nature of the changes are and can't perform miracles, it still often requires humans to make the ultimate choice when things end up in a state of conflict.
+NOTE: It's important to remember that git is a change management system, it tracks changes and only changes, there's never multiple different versions of a file, but instead a number of changes to a file over time, however it's just a piece of software and doesn't have any awareness of what the nature of the changes are and can't perform miracles, it still often requires humans to make the ultimate choice when things end up in a state of conflict.
 
-## Terms
+As we work through this tutorial, we will be editing a file called `HISTORY.md` to track the events of Hill Valley and our protagonist, Marty McFly. So let's create that now.
 
-- [repository](#)
-- [commit](#)
-- [hash](#)
+    $ touch HISTORY.md
+    
+Admittedly this is nothing specifically to do with git, but we needed to do some setup. Remember we have a blank git database ready to start working with. Also, something _real_ important to remember, git tracks changes to _files_, you can't add folders to git, folders are ways of storing files, and git doesn't care about folders.
+
+I write this because it's worth _always_ remembering that git tracks changes to files and a _change_ is a bigger concept than you may immediately think. Adding a new file is a change, deleting a file is a change, editing a file is a change. Confusingly one git command handles all three: `git add`, this makes sense when you create a new file, I _guess_ makes sense that you add changes, but it's somewhat counter intuitive to add the removal of a file, but technically you're changing a project and you need to add the changes, so it logically follows, I suppose.
 
 ## Resources
 

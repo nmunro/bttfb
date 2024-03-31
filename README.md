@@ -20,7 +20,7 @@ About half the class had a moment of epiphany and realised what I was trying to 
 
 You, dear reader, will receive the same homework they did, go and watch the trilogy, right now, no seriously. Go, I'll wait!
 
-To complete this tutorial you will need to be comfortable with your computers terminal and be confidant using terminal commands and navigating your file system. If you are unfamiliar with how to do that, you will need to follow another tutorial first.
+NOTE: To complete this tutorial you will need to be comfortable with your computers terminal and be confidant using terminal commands and navigating your file system. If you are unfamiliar with how to do that, you will need to follow another tutorial first.
 
 # Contents
 

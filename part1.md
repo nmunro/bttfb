@@ -1,3 +1,5 @@
+![Back to the feature branch logo](bttfb.png)
+
 # Part 1: Committing to the story
 
 ## Learning outcomes

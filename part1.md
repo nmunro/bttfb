@@ -33,7 +33,24 @@ Admittedly this is nothing specifically to do with git, but we needed to do some
 
 I write this because it's worth _always_ remembering that git tracks changes to files and a _change_ is a bigger concept than you may immediately think. Adding a new file is a change, deleting a file is a change, editing a file is a change. Confusingly one git command handles all three: `git add`, this makes sense when you create a new file, I _guess_ makes sense that you add changes, but it's somewhat counter intuitive to add the removal of a file, but technically you're changing a project and you need to add the changes, so it logically follows, I suppose.
 
+So to add the file to our git database we can do this:
+
+    $ git add HISTORY.md
+    
+This will _stage_ the changes, a staged change is not yet committed and it represents a way to add some changes that you may not yet be ready to commit, but also don't want to loose. At this point it isn't actually committed to the git database, there's another step we need to take.
+
+To commit our change we must use the commit instruction.
+
+    $ git commit -m "initial commit"
+    
+Something to remember, a commit _must_ have a commit message and you provide it with the `-m` option, if you fail to do this, it'll enter vim and ask you to write a commit message and if you don't know vim, it'll be a little confusing. In other words, always provide the `-m` flag and provide a message.
+
+With each subsequent change to a file we must add and commit it, using this pattern above, and you will be doing that a _lot_ during this lesson. It'll be a little bit tedious but it's important to practice.
+
+To start we will create a table in our history file, it will be in Markdown format (which you can read aboud in the resources), this table will hold all events in the main timeline of back to the future. It's important that each event is committed individually (so that we can go back to it).
+
 ## Resources
 
 - [Time Travel](https://plato.stanford.edu/entries/time-travel/)
 - [git init reference](https://git-scm.com/docs/git-init)
+- [Markdown](https://daringfireball.net/projects/markdown/)

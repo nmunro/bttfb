@@ -23,6 +23,7 @@ In this tutorial we will be following the story of Back To The Future using git 
 # Contents
 
 - [Part 1](part1.md)
+- [Part 2](part2.md)
 - [Resources](resources.md)
 
 # Resources

@@ -61,8 +61,38 @@ This would be everything we need to make our first commit, and it makes a great 
 
     $ git commit -m "Hill Valley founded"
     
+I will give further examples and a link to the complete history in the resources, you must complete the entire history, committing each event as you go.
+
+The next interesting event occurs 5 years later when Clara Clayton is born in 1855, so we will add that at the top of the timeline.
+
+
+    | Year | Date | Time | Event |
+    | ---- | ---- | ---- | ----- |
+    | 1855 | Unknown | Unknown | Clara Clayton is born in New Jersey. |
+    | 1850 | Unknown | Unknown | Hill Valley is founded. |
+
+We will now add it to git.
+
+    $ git commit -m "Hill Valley founded"
+    
+The next interesting event is when Buford Tannen is born in 1857.
+
+    | Year | Date | Time | Event |
+    | ---- | ---- | ---- | ----- |
+    | 1857 | Unknown | Unknown | Buford Tannen is born. |
+    | 1855 | Unknown | Unknown | Clara Clayton is born in New Jersey. |
+    | 1850 | Unknown | Unknown | Hill Valley is founded. |
+    
+We will now add it to git.
+
+    $ git commit -m "Buford Tannen born"
+
+
+Have a read of the [timeline][tl1.md] and complete the entire history yourself as a practice exercise, and join us in [part 2](part2.md).
+
 ## Resources
 
 - [Time Travel](https://plato.stanford.edu/entries/time-travel/)
 - [git init reference](https://git-scm.com/docs/git-init)
 - [Markdown](https://daringfireball.net/projects/markdown/)
+- [Example History](tl1.md)

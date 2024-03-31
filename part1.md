@@ -88,7 +88,7 @@ We will now add it to git.
     $ git commit -m "Buford Tannen born"
 
 
-Have a read of the [timeline][tl1.md] and complete the entire history yourself as a practice exercise, and join us in [part 2](part2.md).
+Have a read of the [timeline](tl1.md) and complete the entire history yourself as a practice exercise, and join us in [part 2](part2.md).
 
 ## Resources
 

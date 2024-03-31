@@ -51,6 +51,16 @@ With each subsequent change to a file we must add and commit it, using this patt
 
 To start we will create a table in our history file, it will be in Markdown format (which you can read aboud in the resources), this table will hold all events in the main timeline of back to the future. It's important that each event is committed individually (so that we can go back to it).
 
+A markdown table is relatively simple to write, you have a line for the headers of the table, separated by the `|` character, a line to separate the header from the content, and rows are like the header, just with the specific content.
+
+    | Year | Date | Time | Event |
+    | ---- | ---- | ---- | ----- |
+    | 1850 | Unknown | Unknown | Hill Valley is founded. |
+    
+This would be everything we need to make our first commit, and it makes a great first commit, it's the start of setting the scene and future events will be added above the first content row. So it's time to commit this.
+
+    $ git commit -m "Hill Valley founded"
+    
 ## Resources
 
 - [Time Travel](https://plato.stanford.edu/entries/time-travel/)

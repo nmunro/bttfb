@@ -48,7 +48,7 @@ A git commit is composed of 4 pieces, the first three are clearly named, `commit
 
 There's something to note however, something that appears in the first commit, but not in the other two `(HEAD -> main)`, this is one of the more nuanced aspects of git to explain, but it helps a lot when you grasp it.
 
-`HEAD` is where _you_ are in the history of your project. Typically the `HEAD` is usually at the tip of the branch you are on (in this case "main"), however, as you move through your projects history, `HEAD` will tell you exactly where you are.
+`HEAD` is where _you_ are in the history of your project. Typically the `HEAD` is usually at the tip of the branch you are on (in this case "main"), however, as you move through your projects history, `HEAD` will tell you exactly where you are, it may not _always_ be at the tip of a branch, as we will see soon.
 
 
 ## Resources

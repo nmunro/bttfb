@@ -4,10 +4,10 @@
 
 ## Learning outcomes
 
-- Learn to define what a git repository is
-- Learn to define what a git commit it
-- Identify what a git hash is
-- Learn how to view the git log
+- Describe what a git repository is
+- Describe what a git commit is
+- Create a git repository
+- Create multiple git commits
 
 ## Lesson
 
@@ -40,6 +40,8 @@ So to add the file to our git database we can do this:
     $ git add HISTORY.md
     
 This will _stage_ the changes, a staged change is not yet committed and it represents a way to add some changes that you may not yet be ready to commit, but also don't want to loose. At this point it isn't actually committed to the git database, there's another step we need to take.
+
+Before we continue, we must ask what a commit is, a commit is a change to the project and represents the state of the project at any given time.
 
 To commit our change we must use the commit instruction.
 

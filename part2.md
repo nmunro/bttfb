@@ -2,6 +2,14 @@
 
 # Part 2: Time travel with style
 
+## Learning outcomes
+
+- Remember how to view the git log
+- Idenfity the structure of a git commit
+- Describe what a git hash is
+
+## Lesson
+
 Great Scott! Marty McFly must be very confused, one moment he's fleeing for his life in 1985, the next he's thrust back to 1955! Whatever will he do? More to the point, how do we join him in 1955?
 
 Well, git is our DeLorean here, and we can use it follow him to 1955, that's real heavy!
@@ -36,4 +44,4 @@ The format of the log is as follows, I have only included the 3 most recent comm
 
         Einstein arrives one minute into the future
 
-# Resources
+## Resources

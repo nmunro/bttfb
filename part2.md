@@ -43,5 +43,12 @@ The format of the log is as follows, I have only included the 3 most recent comm
     Date:   Thu Mar 28 00:14:06 2024 +0000
 
         Einstein arrives one minute into the future
+        
+A git commit is composed of 4 pieces, the first three are clearly named, `commit`, `Author`, and `Date`, the fourth is not listed but is actually the commit message that was used when the commit was made.
+
+There's something to note however, something that appears in the first commit, but not in the other two `(HEAD -> main)`, this is one of the more nuanced aspects of git to explain, but it helps a lot when you grasp it.
+
+`HEAD` is where _you_ are in the history of your project. Typically the `HEAD` is usually at the tip of the branch you are on (in this case "main"), however, as you move through your projects history, `HEAD` will tell you exactly where you are.
+
 
 ## Resources

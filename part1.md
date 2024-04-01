@@ -6,6 +6,7 @@
 
 - Describe what a git repository is
 - Describe what a git commit is
+- Describe what a git branch is
 - Create a git repository
 - Create multiple git commits
 
@@ -26,6 +27,12 @@ Before we get to the end of Act I, however, we must fill in some details (and do
 This simple command sets up the directory you are in as a git `repository`, a `repository` is a term to refer to a project managed by git. It does this by creating a directory called `.git` in the directory you are in. It's called `.git` because in Linux, Unix, MacOS, and most other computer systems, this is how a directory is hidden (Windows is different and is, to my knowledge, the only system where hiding files and folders doesn't work the same way) and since git was developed by the guy who developed Linux, to help him develop Linux, it makes sense that gits design and features work well with Linux and related systems. This directory is a database of changes to your project.
 
 NOTE: It's important to remember that git is a change management system, it tracks changes and only changes, there's never multiple different versions of a file, but instead a number of changes to a file over time, however it's just a piece of software and doesn't have any awareness of what the nature of the changes are and can't perform miracles, it still often requires humans to make the ultimate choice when things end up in a state of conflict.
+
+Work in git happens on `branches`, by default git will create either a `master` or `main` branch. `master` is a term that is... somewhat loaded and has since been renamed to `main`, you may see both but `main` is the more modern name. I've used older systems that predate git, I wanna know what was wrong with `trunk`? If work happens on branches, then the main branch is the `trunk`, right? I will be using the term `main` going forward, but if your version of git uses `master`, don't worry too much.
+
+Git allows multiple branches to exist, but you have to explicitly create branches, `git init` will create the `main` branch for you and any changes you make to the project will be committed to that.
+
+What is a branch though? A branch is an alternative set of changes that differs from what is on any other branch. Branches can branch off of other branches... most of you know how a tree grows! You will create branches in a later part of this tutorial.
 
 As we work through this tutorial, we will be editing a file called `HISTORY.md` to track the events of Hill Valley and our protagonist, Marty McFly. So let's create that now.
 

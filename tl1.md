@@ -53,7 +53,7 @@
 | 1955 | Saturday, November 12 | Unknown | While 'birdwatching', i.e. spying on a girl (Lorraine Baines) changing through her window, George McFly slips and falls out of a tree into the street right in front of Sam Baines's car. After hitting him with the car, Baines takes him in, and his daughter Lorraine takes care of George. The two fall in love. |
 | 1955 | Saturday, November 12 | Unknown | Biff Tannen and his gang pick on George McFly at Lou's Café, warning George to never go into the café again. The café's busboy, Goldie Wilson, gives George advice on standing up for himself, but George ignores it. |
 | 1955 | Saturday, November 12 | Unknown | Doc Brown slips off his toilet whilst hanging a clock and has a vision of the flux capacitor. |
-| 1955 | Saturday, November 12 | Unknown | Otis Peabody tries to breed Pine trees on his farm, Twin Pines Ranch. He grows a pair of twin pines. |
+| 1955 | Unknown | Unknown | Otis Peabody tries to breed Pine trees on his farm, Twin Pines Ranch. He grows a pair of twin pines. |
 | 1954 | Unknown | Unknown | The copy of Fantastic Story that George is reading in 1955 is published. |
 | 1954 | Unknown | Unknown | George McFly reads How to Win Friends and Influence People. |
 | 1954 | Unknown | Unknown | Joey Baines is born to Sam and Stella Baines. |
